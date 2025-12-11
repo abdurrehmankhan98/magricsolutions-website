@@ -1,34 +1,34 @@
 import { motion } from "framer-motion";
 const faqs = [
     {
-        question: "How do we get started?",
+        question: "What types of businesses do you work with?",
         answer:
-            "Share a bit about your business and goals using the contact form. We’ll review it and come back with a simple plan and a call slot to discuss everything.",
+            "We offer affordable website development for small businesses, startups, and established enterprises. We also create portfolio websites for creators and personal brand websites for coaches and consultants.",
     },
     {
-        question: "How long does it take to build a website?",
+        question: "Why should I choose you over other web development agencies in Pakistan?",
         answer:
-            "Most websites take 2–4 weeks depending on pages, features, and how quickly we get feedback and content from you.",
+            "As one of the best web development agencies in Pakistan, we offer a unique blend of professional website design, deep technical expertise (Next.js, React, full-stack development), and a commitment to SEO-optimized websites that deliver results.",
     },
     {
-        question: "What do you need from me?",
+        question: "Can I hire a dedicated Next.js or React developer?",
         answer:
-            "Your logo (if you have one), brand colors, any existing content or offers, and clarity on your main goal: more calls, bookings, leads, or sales.",
+            "Yes, you can hire a Next.js developer or a React developer from our team for your specific project needs. We provide flexible engagement models for custom web application development.",
     },
     {
-        question: "Can you also help with branding and copy?",
+        question: "What is the process for starting a custom website design project?",
         answer:
-            "Yes. We don’t just design screens—we help with messaging, structure, and visuals so your website actually sells, not just looks good.",
+            "Our professional website design services begin with a discovery call to understand your goals. We then move to UI/UX design, development, and deployment, ensuring a high-conversion, modern web app tailored to your brand.",
     },
     {
-        question: "Do you offer support after launch?",
+        question: "Do you provide ongoing support and maintenance?",
         answer:
-            "We provide support after launch for fixes and small tweaks. If you need ongoing changes, we can set up a simple monthly or on-demand plan.",
+            "Yes, we offer comprehensive support plans after launch to ensure your website or mobile app remains secure, up-to-date, and performs optimally.",
     },
     {
-        question: "What if I don’t know my exact budget?",
+        question: "How do you ensure my website will rank on Google?",
         answer:
-            "That’s okay. Share a rough range in the contact form. We’ll recommend an option that fits where you are right now and can grow with you.",
+            "We build every site with a strong SEO foundation, focusing on clean code, fast performance, mobile-first design, and strategic keyword integration to create an SEO-optimized website from day one.",
     },
 ];
 
@@ -46,15 +46,14 @@ function FAQSection() {
                         Quick Questions
                     </p>
                     <h2 className="text-balance text-3xl font-extrabold tracking-tight text-slate-900 md:text-5xl font-heading mb-3">
-                        FAQ FOR YOUR NEXT{" "}
+                        Your Web & App Development{" "}
                         <span className="bg-amber-300 px-2 rounded-xl">
-                            WEBSITE PROJECT
+                            Questions Answered
                         </span>
                         .
                     </h2>
                     <p className="mx-auto max-w-2xl text-base leading-relaxed text-slate-600 md:text-lg">
-                        Short, straight answers so you know exactly how we work before you
-                        book a call.
+                        Clear answers about our custom website design and app development process.
                     </p>
                 </div>
 

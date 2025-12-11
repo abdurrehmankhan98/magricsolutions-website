@@ -21,44 +21,57 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title:
-    "Personal Brand Website Design | High-Conversion Websites for Coaches & Creators",
+  title: "Web & App Development Agency | MagricSolutions",
   description:
-    "MagricSolutions builds high-conversion personal brand websites for Coaches, CEOs, Creators, and Consultants. Modern, SEO-optimized websites designed to build trust, clarity, and consistent client growth.",
+    "MagricSolutions is a top web and app development agency, offering custom website design and mobile app development. Hire Next.js, React, and full-stack developers.",
   keywords: [
-    "personal brand website",
-    "website design for coaches",
-    "creator website design",
-    "high converting website",
-    "web design agency",
-    "SEO friendly websites",
-    "coach website designer",
-    "personal brand web development",
+    "web development",
+    "website design",
+    "app development",
+    "mobile app development",
+    "frontend developer",
+    "UI/UX designer",
+    "custom website design",
+    "Next.js developer",
+    "React developer",
+    "Vue developer",
+    "JavaScript developer",
+    "modern web app development",
+    "full-stack development",
+    "SEO-optimized website",
+    "high-conversion landing pages",
+    "business website development",
+    "personal brand website development",
+    "best web development agency in Pakistan",
+    "hire Next.js developer",
+    "hire React developer",
+    "professional website design services",
+    "affordable website development for small businesses",
+    "portfolio website for creators",
+    "custom web application development",
   ],
   openGraph: {
-    title:
-      "Personal Brand Website Design | High-Conversion Websites for Coaches & Creators",
+    title: "Top-Tier Web & App Development | MagricSolutions",
     description:
-      "Get a premium, SEO-optimized personal brand website designed to convert your audience into clients. Made for Coaches, CEOs, Creators & Consultants.",
+      "From custom website design to modern mobile app development, MagricSolutions delivers high-performance, SEO-optimized digital solutions. Serving clients in Pakistan and beyond.",
     url: "https://magricsolutions.com",
     siteName: "MagricSolutions",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.jpg", // Ensure you have this image in your /public folder
         width: 1200,
         height: 630,
-        alt: "MagricSolutions – Personal Brand Website Design",
+        alt: "MagricSolutions – Web and App Development Agency",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title:
-      "Personal Brand Website Design | High-Conversion Websites for Coaches & Creators",
+    title: "Web & App Development Agency | MagricSolutions",
     description:
-      "Premium personal brand websites crafted to convert. Perfect for Coaches, CEOs, Creators & Consultants.",
-    images: ["/og-image.jpg"],
+      "Expert web and app development services. We build high-conversion, SEO-optimized websites and mobile apps using Next.js, React, and more.",
+    images: ["/og-image.jpg"], // Ensure you have this image in your /public folder
   },
   icons: {
     icon: "/favicon.ico",

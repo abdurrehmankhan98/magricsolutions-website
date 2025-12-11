@@ -1,5 +1,3 @@
-'use client';
-
 import { motion } from "framer-motion";
 const faqs = [
     {
@@ -39,7 +37,7 @@ function FAQSection() {
         <section className="relative overflow-hidden bg-[#F7FFE9]/60 py-20 md:py-24">
             {/* Soft background glows */}
             <div className="pointer-events-none absolute -top-24 left-1/2 h-48 w-[720px] -translate-x-1/2 rounded-full bg-lime-300 opacity-20 blur-[160px]" />
-            <div className="pointer-events-none absolute bottom-[-80px] right-10 h-40 w-40 rounded-full bg-amber-200 opacity-40 blur-3xl" />
+            <div className="pointer-events-none absolute right-10 h-40 w-40 rounded-full bg-amber-200 opacity-40 blur-3xl" />
 
             <div className="relative z-10 mx-auto max-w-6xl px-6 md:px-8">
                 {/* Header */}

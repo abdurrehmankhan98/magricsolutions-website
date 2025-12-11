@@ -128,7 +128,7 @@ function ReviewCard({
         <div className="h-12 w-12 overflow-hidden rounded-full border border-[#9BF021]">
           <Image
             src={avatar}
-            alt={name}
+            alt={`Testimonial from ${name}, a web development client of MagricSolutions`}
             width={48}
             height={48}
             className="object-cover h-full w-full"

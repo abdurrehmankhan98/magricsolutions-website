@@ -7,19 +7,19 @@ type Service = {
 
 const services: Service[] = [
   {
-    title: '01. Strategy & Brand Clarity',
+    title: '01. Custom Web Development',
     description:
-      'We start with your story, audience and offer. Together we define your positioning, key pages and the actions you want visitors to take on your website.',
+      'We build SEO-optimized websites from the ground up. Our expertise includes business websites, portfolios, and high-conversion landing pages using modern tech like Next.js and React.',
   },
   {
-    title: '02. Design & Website Build',
+    title: '02. Mobile App Development',
     description:
-      'We turn your strategy into a clean, modern personal brand website — with custom UI, clear messaging blocks and responsive development.',
+      'We design and develop intuitive mobile apps for iOS and Android. As experienced app developers, we create engaging experiences that connect with your users.',
   },
   {
-    title: '03. Launch, SEO & Optimization',
+    title: '03. UI/UX & Website Design',
     description:
-      'We handle launch, basic SEO setup, performance passes and small refinements so your site loads fast and feels trustworthy from day one.',
+      'Our UI/UX designers create beautiful, functional, and professional website designs. We focus on user experience to ensure your digital product is a joy to use.',
   },
 ];
 
@@ -77,12 +77,12 @@ const ServicesSection = () => {
           className="mb-14 text-center"
         >
           <p className="mb-3 inline-block rounded-2xl bg-amber-300 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-slate-800 shadow-yellow-300">
-            How Your Website Comes Together
+            Our Core Development Services
           </p>
           <h2 className="text-balance text-3xl font-extrabold tracking-tight text-slate-900 md:text-5xl font-heading">
-            One Personal Brand Website,
+            Expert Web & Mobile App Development,
             <br className="hidden md:block" />
-            Built in Three Clear Phases.
+            Designed for Performance.
           </h2>
         </motion.div>
 

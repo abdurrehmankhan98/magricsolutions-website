@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const testimonials = [
-  { src: "/websites/docotor medicare-.webp", alt: "Website 1" },
-  { src: "/websites/site2.webp", alt: "Website 2" },
-  { src: "/websites/resturant web24.webp", alt: "Website 3" },
-  { src: "/websites/site4.webp", alt: "Website 4" },
-  { src: "/websites/site5.webp", alt: "Website 5" },
-  { src: "/websites/site6.webp", alt: "Website 6" },
-  { src: "/websites/site7.webp", alt: "Website 7" },
+  { src: "/websites/docotor medicare-.webp", alt: "Custom web development for a Medicare doctor" },
+  { src: "/websites/site2.webp", alt: "Modern website design for a business client" },
+  { src: "/websites/resturant web24.webp", alt: "Restaurant website design with online ordering" },
+  { src: "/websites/site4.webp", alt: "SEO-optimized landing page for a tech startup" },
+  { src: "/websites/site5.webp", alt: "High-conversion business website development" },
+  { src: "/websites/site6.webp", alt: "Professional website design for a consultant" },
+  { src: "/websites/site7.webp", alt: "Portfolio website for a creative professional" },
 ];
 
 export default function TestimonialReelSection() {

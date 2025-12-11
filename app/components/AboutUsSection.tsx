@@ -91,7 +91,7 @@ const AboutUsSection = () => {
                   <div className="h-16 w-16 rounded-full overflow-hidden ring-2 ring-lime-400">
                     <Image
                       src="/Mahmoud-Bartawi.png"
-                      alt="Client Testimonial"
+                      alt="Mahmoud Bartawi, Host of BXB Podcast, a client of MagricSolutions"
                       width={64}
                       height={64}
                       className="w-full h-full object-cover"

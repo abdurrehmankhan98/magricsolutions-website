@@ -1,4 +1,3 @@
-
 "use client";
 
 import { Target, Lightbulb, Send, ChevronUp, Check, ArrowLeft, ArrowRight, Instagram, Facebook, Linkedin, Mail } from 'lucide-react';
@@ -49,7 +48,7 @@ export default function Home() {
               className="ml-auto"
             >
               <button className="flex items-center gap-3 rounded-full bg-amber-300 px-6 py-2.5 text-sm font-semibold text-black shadow-md transition-transform hover:scale-105 md:px-8 md:py-3 md:text-base">
-                Internship
+                Get a Free Quote
                 <svg
                   className="h-4 w-4 md:h-5 md:w-5"
                   stroke="currentColor"
@@ -67,8 +66,6 @@ export default function Home() {
             </motion.div>
 
             <div className="flex flex-1 flex-col items-center justify-center pt-10 pb-24 md:pb-10">
-              {/* Testimonial pill */}
-
               <AnimatedHeroContent />
             </div>
           </div>
@@ -79,13 +76,12 @@ export default function Home() {
       <ServicesSection />
       <AboutUsSection />
       <ProcessSection />
-      <PricingSection />
       <ReviewSection />
       <FAQSection />
       <ContactSection />
+      <PricingSection />
       <TeamSection />
       <FooterSection />
     </>
   );
 }
-

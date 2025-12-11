@@ -1,4 +1,15 @@
-const PricingCard = ({ plan }) => {
+interface Plan {
+  name: string;
+  price: string;
+  description: string;
+  features: string[];
+}
+
+interface PricingCardProps {
+  plan: Plan;
+}
+
+const PricingCard = ({ plan }: PricingCardProps) => {
   return (
     <div className="group relative flex flex-col rounded-2xl bg-white p-8 shadow-[0_16px_40px_rgba(15,23,42,0.05)] ring-1 ring-slate-200 transition-all hover:-translate-y-1 hover:shadow-[0_22px_50px_rgba(15,23,42,0.10)] hover:ring-[#BBF52D]">
       {/* Title */}

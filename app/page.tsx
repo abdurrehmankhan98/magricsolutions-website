@@ -522,7 +522,7 @@ const pricingPlans = [
 
 type PricingPlan = (typeof pricingPlans)[number];
 
-function PricingCard({ plan }: { plan: PricingPlan }) {
+function PricingCard({ plan  }: { plan: PricingPlan }) {
   const { name, tagline, priceUSD, isPopular, features, highlights } = plan;
 
   return (
@@ -592,8 +592,8 @@ function PricingSection() {
   return (
     <section className="relative overflow-hidden bg-[#F7FFE9]/60 py-20 md:py-24">
       {/* soft glows */}
-      <div className="pointer-events-none absolute top-[-120px] left-[-80px] h-[260px] w-[260px] rounded-full bg-lime-200 opacity-30 blur-[120px]" />
-      <div className="pointer-events-none absolute bottom-[-140px] right-[-80px] h-[260px] w-[260px] rounded-full bg-amber-200 opacity-30 blur-[130px]" />
+      <div className="pointer-events-none absolute top-[-120px]  h-[260px] w-[260px] rounded-full bg-lime-200 opacity-30 blur-[120px]" />
+      <div className="pointer-events-none absolute bottom-[-140px] h-[260px] w-[260px] rounded-full bg-amber-200 opacity-30 blur-[130px]" />
 
       <div className="relative z-10 mx-auto max-w-6xl px-6">
         {/* Header */}
@@ -640,8 +640,8 @@ function TeamSection() {
     >
       {/* Background glows */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute top-[-80px] left-[-60px] h-[300px] w-[300px] rounded-full bg-amber-200 opacity-25 blur-[150px]" />
-        <div className="absolute bottom-[-80px] right-[-60px] h-[300px] w-[300px] rounded-full bg-lime-300 opacity-25 blur-[160px]" />
+        <div className="absolute left-[-60px] h-[300px] w-[300px] rounded-full bg-amber-200 opacity-25 blur-[150px]" />
+        <div className="absolute right-[-60px] h-[300px] w-[300px] rounded-full bg-lime-300 opacity-25 blur-[160px]" />
       </div>
 
       <div className="relative z-10 mx-auto max-w-6xl px-6">
